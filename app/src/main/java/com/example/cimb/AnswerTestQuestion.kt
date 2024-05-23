@@ -25,9 +25,9 @@ fun main(args: Array<String>) {
     println("Third Question climb to top")
     println("----------------------------------------")
     println("\n")
-    println("Ex 1.Should return 2 : " +climbToTop(2))
-    println("Ex 2.Should return 3 : " +climbToTop(3))
-    println("Ex 2.Should return 3 : " +climbToTop(45))
+    println("Ex 1.Should return 2 : " + climbToTop(2))
+    println("Ex 2.Should return 3 : " + climbToTop(3))
+    println("Ex 2.Should return 3 : " + climbToTop(45))
     println("\n")
     println("----------------------------------------")
 
@@ -77,7 +77,7 @@ fun compareVersion(version1: String, version2: String): Int {
 }
 
 // Question 3
-fun climbToTop(step : Short) : Int {
+fun climbToTop(step: Short): Int {
     val maxStepAtOnce = 2
 
     if (step <= 1) return 1
