@@ -11,7 +11,6 @@ fun main(args: Array<String>) {
     println("\n")
     println("----------------------------------------")
 
-
     println("Second Question compare version")
     println("----------------------------------------")
     println("\n")
@@ -37,9 +36,7 @@ fun main(args: Array<String>) {
     println("for example 1 -> 1(1),\n2 -> 11,2(2),\n3 -> 111,12,21(3)\n4 -> 1111,112,121,211,22(5) and go on")
     println("then see relation of each step answer will be f(n) = f(n-1) + f(n-2)")
     println("finally, refactor the function to be less complex")
-
 }
-
 
 // Question 1
 fun findMaxProfit(input: Array<Short>): Int {
