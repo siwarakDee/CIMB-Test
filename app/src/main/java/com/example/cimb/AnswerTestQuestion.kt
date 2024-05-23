@@ -30,6 +30,14 @@ fun main(args: Array<String>) {
     println("Ex 2.Should return 3 : " +climbToTop(45))
     println("\n")
     println("----------------------------------------")
+
+    println("Forth Question")
+    println("The hardest question is the third one that take much time.")
+    println("Firstly, I trying loop to show each step result")
+    println("for example 1 -> 1(1),\n2 -> 11,2(2),\n3 -> 111,12,21(3)\n4 -> 1111,112,121,211,22(5) and go on")
+    println("then see relation of each step answer will be f(n) = f(n-1) + f(n-2)")
+    println("finally, refactor the function to be less complex")
+
 }
 
 
